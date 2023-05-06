@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+<!-- Following line reduces the damage radius of the station teleportation -->
+<replace sel="//cue[@name='Warp_HQ_Conv_Handler_Next_Section']/actions/do_elseif[1]/do_else/do_if/run_actions[@ref='Check_HQ_Warp_Destination']/param[@name='Radius']/@value">[$HQ.buildplot.max.length * 1.00, 5km].max</replace>
+<replace sel="//cue[@name='Warp_HQ_Conv_Handler_Beacon_Selected']/actions/run_actions[@ref='Warp_HQ_To_Destination_Lib']/param[@name='Radius']/@value">[$HQ.buildplot.max.length * 1.00, 5km].max</replace>
+</diff>

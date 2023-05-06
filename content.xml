@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content
+	id="z_scaco_PhqWarpDamageRangeReduction"
+	name="z_scaco_PhqWarpDamageRangeReduction"
+	description="Beim Teleportieren des PHQ werden alle Schiffe und Stationen innerhalb eines bestimmten Radius zerstört. Dieser Radius wurde auf maximal 5km verringert."
+	author="Scaco"
+	version="101"
+	date="2023-05-01"
+	save="0"
+	enabled="1">
+</content>
